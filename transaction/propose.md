@@ -6,3 +6,4 @@ simple, it has 2 purposes:
         * Send the request to the Wallet Service using gRPC.
         * Update the status to "Finished" after the process is complete.
 
+Nats by default does not stream, so it kind of loses the message if there is no one listening and available. So it's worth checkong out how nats stream works.
